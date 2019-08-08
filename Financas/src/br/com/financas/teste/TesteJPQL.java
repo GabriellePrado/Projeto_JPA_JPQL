@@ -13,6 +13,7 @@ import br.com.financas.util.JPAutil;
 public class TesteJPQL {
 
 	public static void main(String[] args) {
+		
 		EntityManager em = new JPAutil().getEntityManager();
 		em.getTransaction().begin();
 		
